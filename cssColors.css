@@ -1,0 +1,24 @@
+hr {
+  border-top: 5px solid black;
+}
+
+/* Colors********************************************************************************** */
+
+.namedColor {
+  color: red;
+}
+.rgbColor {
+  color: rgb(0, 0, 255);
+}
+.rgbaColor {
+  color: rgba(0, 0, 255, 0.5);
+}
+.hexColor {
+  color: #3cb371;
+}
+.hslColor {
+  color: hsl(187, 100%, 50%);
+}
+.hslaColor {
+  color: hsla(9, 100%, 64%, 0.5);
+}

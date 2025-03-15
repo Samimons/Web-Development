@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cssBackground.css" />
+  </head>
+  <body>
+    <!-- Background colours********************************************************** -->
+    <h2>Backgrounds</h2>
+    <h3>Background Colour</h3>
+    <!-- Named colours -->
+    <h4>Named Colours</h4>
+    <p class="backgroundColorRed">
+      The background is coloured using "background-color: red;
+    </p>
+    <p class="backgroundColorYellow">
+      The background is coloured using "background-color: lightblue;
+    </p>
+    <p class="backgroundColorBlue">
+      The background is coloured using "background-color: lightblue;
+    </p>
+    <!-- Opacity****************************** -->
+    <h4>Opacity</h4>
+    <p class="opacityBackground1">
+      The background is coloured using "background-color:red + opacity: 1"
+    </p>
+    <p class="opacityBackground06">
+      The background is coloured using "background-color:red + opacity: 1"
+    </p>
+    <p class="opacityBackground03">
+      The background is coloured using "background-color:red + opacity: 1"
+    </p>
+    <p class="opacityBackground01">
+      The background is coloured using "background-color:red + opacity: 1"
+    </p>
+    <!-- Transparency************************ -->
+    <h4>Transparency</h4>
+    <p class="transparencyBackground100">
+      The background is coloured using "background: rgba(0, 128, 0, 1)"
+    </p>
+    <p class="transparencyBackground60">
+      The background is coloured using "background: rgba(0, 128, 0, 0.6)"
+    </p>
+    <p class="transparencyBackground30">
+      The background is coloured using "background: rgba(0, 128, 0, 0.3)"
+    </p>
+    <p class="transparencyBackground10">
+      The background is coloured using "background: rgba(0, 128, 0, 0.1)"
+    </p>
+    <hr />
+    <!-- Background Image********************* -->
+    <h3>Background Image</h3>
+    <p class="backgroundImage" style="height: 100px">
+      The background image property specifies an image to use as a background to
+      an element.<br />
+      The CSS code is:<br />
+      background-image: url(images/wallpaperBackground.jpg);
+    </p>
+    <hr />
+    <!-- Backgroung Image Repeat************** -->
+    <h3>Background Image Repeat</h3>
+    <p>
+      By default, the background-image property repeats an image both
+      horizontally and vertically.
+    </p>
+    <p>
+      Some images should be repeated only horizontally or vertically, or they
+      will look strange, like this:
+    </p>
+    <div class="backgroundGradient" style="height: 400px"></div>
+    <hr />
+    <p>
+      If the image above is repeated only horizontally (background-repeat:
+      repeat-x;), the background will look better:
+    </p>
+    <div class="backgroundRepeat" style="height: 350px"></div>
+    <p>To repeat an image vertically, set background-repeat: repeat-y;</p>
+    <hr />
+    <!-- Background Norepeat******************** -->
+    <p>
+      Showing the background image only once is also specified by the
+      (background-repeat: no-repeat;)
+    </p>
+    <div class="bgNoRepeat" style="height: 400px"></div>
+    <hr />
+    <!-- Background Repeat*********************** -->
+    <p>Not specifying no-repeat.</p>
+    <div class="bgRepeat" style="height: 400px"></div>
+    <hr />
+
+    <!-- Backbround Position********************* -->
+    <h3>Background Position</h3>
+
+    <div class="container">
+      <div
+        class="top"
+        style="height: 200px; width: 200px; border: 1px solid"
+      ></div>
+      <div
+        class="bottom"
+        style="height: 200px; width: 200px; border: 1px solid"
+      ></div>
+      <div
+        class="left"
+        style="height: 200px; width: 200px; border: 1px solid"
+      ></div>
+      <div
+        class="right"
+        style="height: 200px; width: 200px; border: 1px solid"
+      ></div>
+      <div
+        class="topL"
+        style="height: 200px; width: 200px; border: 1px solid"
+      ></div>
+      <div
+        class="topR"
+        style="height: 200px; width: 200px; border: 1px solid"
+      ></div>
+      <div
+        class="bottomL"
+        style="height: 200px; width: 200px; border: 1px solid"
+      ></div>
+      <div
+        class="bottomR"
+        style="height: 200px; width: 200px; border: 1px solid"
+      ></div>
+      <div
+        class="center"
+        style="height: 200px; width: 200px; border: 1px solid"
+      ></div>
+    </div>
+    <hr />
+    <!-- Background Attachment Fixed******************** -->
+    <h3>Background Attachment Fixed</h3>
+    <p>
+      The background-attachment property specifies whether the background image
+      should scroll or be fixed (will not scroll with the rest of the page):
+    </p>
+    <div class="backgroundAttachmentFixed" style="height: 750px"></div>
+    <hr />
+
+    <!-- Background Attachment Scroll -->
+    <h3>Background Attachment Scroll</h3>
+    <p>
+      Specify that the background image should scroll with the rest of the page:
+    </p>
+    <div class="backgroundAttachmentScroll" style="height: 750px"></div>
+    <hr />
+  </body>
+</html>

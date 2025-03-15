@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="device = device-width, initial-scale 1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="cssBorders.css" />
+    <title>Boarders</title>
+  </head>
+
+  <body>
+    <h1>CSS Borders</h1>
+    <p>
+      The CSS border properties allow you to specify the style, width, and color
+      of an element's border.
+    </p>
+    <!--CSS Border Style*********************************************************************** -->
+    <h3>CSS Border Style</h3>
+    <p class="dotted">border-style: dotted;</p>
+    <p class="dashed">border-style: dashed border;</p>
+    <p class="solid">border-style: solid;</p>
+    <p class="double">border-style: double;</p>
+    <p class="groove">
+      border-style: groove; - The effect depends on the border-color value.
+    </p>
+    <p class="ridge">
+      border-style: ridge; - The effect depends on the border-color value.
+    </p>
+    <p class="inset">
+      border-style: inset; - The effect depends on the border-color value.
+    </p>
+    <p class="outset">
+      border-style: outset; - The effect depends on the border-color value.
+    </p>
+    <p class="none">border-style: none;</p>
+    <p class="hidden">border-style: hidden;</p>
+    <p class="mix">border-style: dotted dashd solid double;</p>
+    <hr />
+    <!-- CSS Border width******************************************************************* -->
+    <h3>Border Width</h3>
+    <p>The border-width property specifies the width of the four borders.</p>
+    <p>
+      The width can be set as a specific size (in px, pt, cm, em, etc) or by
+      using one of the three pre-defined values: thin, medium, or thick:
+    </p>
+    <p class="one">border-style: solid; border-width: 5px;</p>
+    <p class="two">border-style: solid; border-width: medium;</p>
+    <p class="three">border-style: dotted; border-width: 2px;</p>
+    <p class="four">border-style: dotted; border-width: thick;</p>
+    <p class="five">border-style: double; border-width: 15px;</p>
+    <p class="six">border-style: double; border-width: thick;</p>
+    <hr />
+    <!-- specific Side widths****************************************************************** -->
+    <h3>Specific Side Widths</h3>
+    <p>
+      The border-width property can have from one to four values (for the top
+      border, right border, bottom border, and the left border):
+    </p>
+
+    <p class="seven">5px top and bottom, 20px on the sides</p>
+    <p class="eight">20px top and bottom, 5px on the sides</p>
+    <p class="nine">25px top, 10px right, 4px bottom and 35px left</p>
+
+    <p>
+      <b>Note:</b> The "border-width" property does not work if it is used
+      alone. Always specify the "border-style" property to set the borders
+      first.
+    </p>
+    <hr />
+    <!-- CSS Border Color*********************************************************************** -->
+    <h3>Border Color</h3>
+    <p>
+      The border-color property is used to set the color of the four borders.
+    </p>
+    <p>The color can be set by:</p>
+    <ul>
+      <li>name - specify a color name, like "red"</li>
+      <li>HEX - specify a HEX value, like "#ff0000"</li>
+      <li>RGB - specify a RGB value, like "rgb(255,0,0)"</li>
+      <li>HSL - specify a HSL value, like "hsl(0, 100%, 50%)"</li>
+      <li>transparent</li>
+    </ul>
+    <p>
+      note: If border-color is not set, it inherits the color of the element.
+    </p>
+    <p class="bcOne">A solid red border</p>
+    <p class="bcTwo">A dashed green border</p>
+    <p class="bcThree">A dotted blue border</p>
+    <hr />
+    <!-- Specific Side Color*************************************************************** -->
+    <h3>Specific Side Color</h3>
+    <p>
+      The border-color property can have from one to four values (for the top
+      border, right border, bottom border, and the left border):
+    </p>
+    <p class="sscOne">A solid multicolor border</p>
+    <hr />
+    <!-- CSS Border - Individual Sides***************************************************** -->
+    <h3>CSS Border - Individual Sides</h3>
+    <p>
+      In CSS, there are also properties for specifying each of the borders (top,
+      right, bottom, and left):
+    </p>
+    <pre class="code">
+      p { 
+        border-top-style: dotted; 
+        border-right-style: solid;
+        border-bottom-style: dotted; 
+        border-left-style: solid;
+        }
+    </pre>
+    <p class="isOne">2 different border styles.</p>
+    <p>If the border-style property has four values:</p>
+    <ul>
+      <li class="bold">border-style: dotted solid double dashed;</li>
+      <ul>
+        <li>top border is dotted</li>
+        <li>right border is solid</li>
+        <li>bottom border is double</li>
+        <li>left border is dashed</li>
+      </ul>
+    </ul>
+    <p>If the border-style property has three values:</p>
+    <ul>
+      <li class="bold">border-style: dotted solid double dashed;</li>
+      <ul>
+        <li>top border is dotted</li>
+        <li>right and eft border is solid</li>
+        <li>bottom border is double</li>
+      </ul>
+    </ul>
+    <p>If the border-style property has two values:</p>
+    <ul>
+      <li class="bold">border-style: dotted solid;</li>
+      <ul>
+        <li>top and bottom borders are dotted</li>
+        <li>right and left borders are solid</li>
+      </ul>
+    </ul>
+    <p>If the border-style property has one value:</p>
+    <ul>
+      <li class="bold">border-style: dotted;</li>
+      <ul>
+        <li>all four borders are dotted</li>
+      </ul>
+    </ul>
+  </body>
+</html>

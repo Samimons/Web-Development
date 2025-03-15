@@ -1,0 +1,128 @@
+/* Background-Colors*********************************************************************** */
+/* Background-Color******************************** */
+.backgroundColorRed {
+  background-color: red;
+}
+.backgroundColorYellow {
+  background-color: yellow;
+}
+.backgroundColorBlue {
+  background-color: blue;
+}
+/* Opacity***************************************** */
+.opacityBackground1 {
+  background-color: green;
+  opacity: 1;
+}
+.opacityBackground06 {
+  background-color: green;
+  opacity: 0.6;
+}
+.opacityBackground03 {
+  background-color: green;
+  opacity: 0.3;
+}
+.opacityBackground01 {
+  background-color: green;
+  opacity: 0.1;
+}
+/* Transparency************************************ */
+.transparencyBackground100 {
+  background-color: rgba(0, 128, 0, 1);
+}
+.transparencyBackground60 {
+  background-color: rgba(0, 128, 0, 0.6);
+}
+.transparencyBackground30 {
+  background-color: rgba(0, 128, 0, 0.3);
+}
+.transparencyBackground10 {
+  background-color: rgba(0, 128, 0, 0.1);
+}
+
+/* Backgrounds****************************************************************************** */
+/* Background-Image********************************* */
+.backgroundImage {
+  background-image: url(images/wallpaperBackground.jpg);
+}
+/* Background Repeat******************************** */
+.backgroundGradient {
+  background-image: url(images/backgroundGradient.png);
+}
+.backgroundRepeat {
+  background-image: url(images/backgroundGradient.png);
+  background-repeat: repeat-x;
+}
+/* Background Norepeat****************************** */
+.bgNoRepeat {
+  background-image: url(images/smallTree.png);
+  background-repeat: no-repeat;
+}
+/* background Repeat********************************** */
+.bgRepeat {
+  background-image: url(images/smallTree.png);
+}
+
+/* Background Position******************************* */
+
+.top {
+  background-image: url(images/smallOwl.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bottom {
+  background-image: url(images/smallOwl.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.left {
+  background-image: url(images/smallOwl.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.right {
+  background-image: url(images/smallOwl.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.topL {
+  background-image: url(images/smallOwl.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.topR {
+  background-image: url(images/smallOwl.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.bottomL {
+  background-image: url(images/smallOwl.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.bottomR {
+  background-image: url(images/smallOwl.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.center {
+  background-image: url(images/smallOwl.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Background Attachment******************************* */
+.backgroundAttachmentFixed {
+  background-image: url(images/smallTree.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Background Attachment***************************** */
+.backgroundAttachmentScroll {
+  background-image: url(images/smallTree.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
